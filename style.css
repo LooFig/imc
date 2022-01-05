@@ -1,0 +1,67 @@
+* {
+    height: 100%;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(210, 237, 250), rgb(6, 133, 252));
+}
+
+main {
+    height: auto;
+    margin-top: 25px;
+}
+
+
+#container{
+    padding: 5px 15px;
+    background-color: white;
+    max-height: 500px;
+    max-width: 270px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.452);
+}
+
+h1 {
+    border-bottom: 2px black solid; 
+    margin-bottom: 30px;   
+}
+
+
+
+p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    
+    margin-bottom: 25px;
+}
+
+input {
+    height: 25px;
+}
+
+button {
+    width: 270px;
+    height: 30px;
+    background-color: rgb(163, 204, 243);
+    font-size: 1.2em;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(224, 237, 250);
+}
+
+.resultado {
+    height: 90px;
+    width: 270px;
+    background-color: rgb(163, 204, 243);  
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.281);
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+}
