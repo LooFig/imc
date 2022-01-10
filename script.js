@@ -31,7 +31,5 @@ function imc () {
     } else {
         resultado.textContent = `Preencha todos os campos.`;
     }
-
 }
-
 calcular.addEventListener('click', imc);
